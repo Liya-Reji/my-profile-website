@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Premium Student Profile Page showcasing academic achievements and skills.">
+    <title>Student Profile | Liya Reji</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Dynamic Background Elements -->
+    <div class="bg-blur blur-1"></div>
+    <div class="bg-blur blur-2"></div>
+
+    <nav class="navbar hidden-onload">
+        <div class="logo">LR.</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#academics">Academics</a></li>
+            <li><a href="#contact" class="btn-primary-sm">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <!-- Hero Section -->
+        <section class="hero hidden-onload delay-1">
+            <div class="profile-card glass-card">
+                <div class="avatar-container">
+                    <!-- Placeholder using a gradient and initial for a clean look without an actual image -->
+                    <div class="avatar">LR</div>
+                    <div class="status-indicator"></div>
+                </div>
+                <div class="profile-info">
+                    <h1 class="name">Liya Reji</h1>
+                    <h2 class="tagline">BCA Student at Amal Jyothi College of Engineering</h2>
+                    <p class="greeting" id="dynamic-greeting">Welcome to my portfolio</p>
+
+                    <div class="stats-row">
+                        <div class="stat-box">
+                            <span class="stat-value">8.94</span>
+                            <span class="stat-label">CGPA Avg</span>
+                        </div>
+                        <div class="stat-box">
+                            <span class="stat-value">3rd</span>
+                            <span class="stat-label">Semester</span>
+                        </div>
+                        <div class="stat-box">
+                            <span class="stat-value">BCA</span>
+                            <span class="stat-label">Course</span>
+                        </div>
+                    </div>
+
+                    <div class="action-buttons">
+                        <a href="#contact" class="btn-primary">Get in Touch</a>
+                        <a href="#" class="btn-secondary">Download Resume</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section slide-up hidden">
+            <h3 class="section-title">About Me</h3>
+            <div class="glass-card content-card">
+                <p>Hello! I am Liya Reji, a passionate and driven BCA student at Amal Jyothi College of Engineering,
+                    Kanjirapally. I have a strong foundation in computer applications and software development. I thrive
+                    in challenging environments and am always eager to learn new technologies and apply them to
+                    real-world problems.</p>
+                <div class="details-grid">
+                    <div class="detail-item">
+                        <span class="detail-label">College</span>
+                        <span class="detail-value">Amal Jyothi College of Engineering</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">Major</span>
+                        <span class="detail-value">BCA</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">Location</span>
+                        <span class="detail-value">Kanjirapally, Kerala</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">Interests</span>
+                        <span class="detail-value">UI/UX, Web Dev, Programming</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section slide-up hidden">
+            <h3 class="section-title">Technical Skills</h3>
+            <div class="glass-card skills-card">
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>Frontend Development</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" data-width="90%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>Backend (Node.js/Python)</span>
+                        <span>75%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" data-width="75%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>Database Design</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" data-width="80%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>UI/UX Design</span>
+                        <span>65%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" data-width="65%"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Academics Section -->
+        <section id="academics" class="about-section slide-up hidden">
+            <h3 class="section-title">Academic Record</h3>
+            <div class="glass-card content-card">
+                <p style="margin-bottom: 1.5rem;">I am currently pursuing my Bachelor of Computer Applications (BCA).
+                    Below is my academic performance across the recent semesters.</p>
+                <div class="details-grid">
+                    <div class="detail-item">
+                        <span class="detail-label">Semester 1</span>
+                        <span class="detail-value">8.59 CGPA</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">Semester 2</span>
+                        <span class="detail-value">9.39 CGPA</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">Semester 3</span>
+                        <span class="detail-value">8.85 CGPA</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">Cumulative Average</span>
+                        <span class="detail-value" style="color: var(--accent-color); font-weight: 700;">8.94
+                            CGPA</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="glass-card slide-up hidden" id="contact">
+        <div class="footer-content">
+            <h3>Let's Connect</h3>
+            <p>I'm always open to discussing new projects, creative ideas or opportunities to be part of your visions.
+            </p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/liya-reji-317878328" class="social-link" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a href="https://github.com/Liya-Reji" class="social-link" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="mailto:liyareji2028@bca.ajce.in" class="social-link">Email</a>
+            </div>
+            <p class="copyright">© <span id="year"></span> Liya Reji. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
